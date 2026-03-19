@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="vi" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Trang giới thiệu cá nhân của Nguyễn Tấn Đạt - Sinh viên Công Nghệ Thông Tin, Đại học Công nghệ HUTECH">
+  <title>Nguyễn Tấn Đạt | Portfolio</title>
+  <link rel="stylesheet" href="../static/style.css" th:href="@{/style.css}">
+</head>
+
+<body>
+
+  <!-- Background Animation -->
+  <div class="bg-animation">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a href="#" class="logo">NTĐ</a>
+    <ul class="nav-links">
+      <li><a href="#home">Trang chủ</a></li>
+      <li><a href="#about">Giới thiệu</a></li>
+      <li><a href="#skills">Kỹ năng</a></li>
+      <li><a href="#education">Học vấn</a></li>
+      <li><a href="#contact">Liên hệ</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-avatar">
+        <div class="avatar-inner">NTĐ</div>
+      </div>
+      <p class="hero-greeting">Xin chào, tôi là</p>
+      <h1 class="hero-name">Nguyễn Tấn Đạt</h1>
+      <p class="hero-title">Sinh viên <span>Công Nghệ Thông Tin</span></p>
+      <p class="hero-desc">
+        Sinh viên đam mê công nghệ tại Đại học Công nghệ HUTECH.
+        Luôn khao khát học hỏi và phát triển bản thân trong lĩnh vực phát triển phần mềm.
+      </p>
+      <div class="btn-group">
+        <a href="#about" class="btn btn-primary">
+          ✦ Tìm hiểu thêm
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          ✉ Liên hệ với tôi
+        </a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse"></div>
+      <span>Cuộn xuống</span>
+    </div>
+  </section>
+
+  <!-- Personal Info Section -->
+  <section class="section" id="about">
+    <div class="section-header">
+      <p class="section-tag">Về tôi</p>
+      <h2 class="section-title">Thông Tin Cá Nhân</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="glass-card fade-in" style="margin-bottom: 2.5rem;">
+      <div class="info-grid">
+        <div class="info-item">
+          <div class="info-icon">👤</div>
+          <div>
+            <p class="info-label">Họ và tên</p>
+            <p class="info-value">Nguyễn Tấn Đạt</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">🎂</div>
+          <div>
+            <p class="info-label">Ngày sinh</p>
+            <p class="info-value">13/02/2004</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">🎓</div>
+          <div>
+            <p class="info-label">Trường</p>
+            <p class="info-value">Đại học Công nghệ HUTECH</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">💻</div>
+          <div>
+            <p class="info-label">Ngành học</p>
+            <p class="info-value">Công Nghệ Thông Tin</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">📍</div>
+          <div>
+            <p class="info-label">Địa chỉ</p>
+            <p class="info-value">TP. Hồ Chí Minh, Việt Nam</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">🌐</div>
+          <div>
+            <p class="info-label">Ngôn ngữ</p>
+            <p class="info-value">Tiếng Việt, Tiếng Anh</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Content -->
+    <div class="about-content fade-in">
+      <div class="about-text">
+        <p>
+          Xin chào! Tôi là <strong>Nguyễn Tấn Đạt</strong>, sinh ngày <strong>13/02/2004</strong>.
+          Hiện tại tôi đang là sinh viên ngành <strong>Công Nghệ Thông Tin</strong> tại
+          <strong>Đại học Công nghệ HUTECH</strong>, thành phố Hồ Chí Minh.
+        </p>
+        <p>
+          Tôi có niềm đam mê lớn với lập trình và công nghệ. Luôn muốn tìm tòi,
+          khám phá những kiến thức mới để nâng cao kỹ năng của bản thân.
+          Mục tiêu của tôi là trở thành một lập trình viên chuyên nghiệp,
+          có khả năng tạo ra những sản phẩm phần mềm chất lượng cao.
+        </p>
+        <p>
+          Ngoài việc học tập, tôi còn tham gia các dự án nhóm, hoạt động ngoại khóa
+          và không ngừng phát triển các kỹ năng mềm cần thiết cho sự nghiệp tương lai.
+        </p>
+      </div>
+      <div class="about-stats">
+        <div class="glass-card stat-card">
+          <div class="stat-number">22</div>
+          <div class="stat-label">Tuổi</div>
+        </div>
+        <div class="glass-card stat-card">
+          <div class="stat-number">IT</div>
+          <div class="stat-label">Ngành học</div>
+        </div>
+        <div class="glass-card stat-card">
+          <div class="stat-number">∞</div>
+          <div class="stat-label">Đam mê</div>
+        </div>
+        <div class="glass-card stat-card">
+          <div class="stat-number">24/7</div>
+          <div class="stat-label">Học hỏi</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section" id="skills">
+    <div class="section-header">
+      <p class="section-tag">Năng lực</p>
+      <h2 class="section-title">Kỹ Năng Chuyên Môn</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="skills-grid">
+      <div class="glass-card skill-card fade-in">
+        <div class="skill-icon">🌐</div>
+        <h3 class="skill-name">Web Development</h3>
+        <p class="skill-desc">HTML, CSS, JavaScript, React.js và các framework hiện đại</p>
+        <div class="skill-bar-container">
+          <div class="skill-bar" style="width: 75%;"></div>
+        </div>
+      </div>
+
+      <div class="glass-card skill-card fade-in">
+        <div class="skill-icon">⚙️</div>
+        <h3 class="skill-name">Backend Development</h3>
+        <p class="skill-desc">Node.js, Express.js, REST API và quản lý cơ sở dữ liệu</p>
+        <div class="skill-bar-container">
+          <div class="skill-bar" style="width: 65%;"></div>
+        </div>
+      </div>
+
+      <div class="glass-card skill-card fade-in">
+        <div class="skill-icon">🗄️</div>
+        <h3 class="skill-name">Database</h3>
+        <p class="skill-desc">MongoDB, MySQL và thiết kế cơ sở dữ liệu hiệu quả</p>
+        <div class="skill-bar-container">
+          <div class="skill-bar" style="width: 70%;"></div>
+        </div>
+      </div>
+
+      <div class="glass-card skill-card fade-in">
+        <div class="skill-icon">🐳</div>
+        <h3 class="skill-name">DevOps & Tools</h3>
+        <p class="skill-desc">Docker, Git, VS Code và các công cụ phát triển phần mềm</p>
+        <div class="skill-bar-container">
+          <div class="skill-bar" style="width: 60%;"></div>
+        </div>
+      </div>
+
+      <div class="glass-card skill-card fade-in">
+        <div class="skill-icon">📱</div>
+        <h3 class="skill-name">Responsive Design</h3>
+        <p class="skill-desc">Thiết kế giao diện tương thích đa nền tảng và thiết bị</p>
+        <div class="skill-bar-container">
+          <div class="skill-bar" style="width: 80%;"></div>
+        </div>
+      </div>
+
+      <div class="glass-card skill-card fade-in">
+        <div class="skill-icon">🤝</div>
+        <h3 class="skill-name">Teamwork</h3>
+        <p class="skill-desc">Làm việc nhóm, giao tiếp hiệu quả và quản lý dự án</p>
+        <div class="skill-bar-container">
+          <div class="skill-bar" style="width: 85%;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section" id="education">
+    <div class="section-header">
+      <p class="section-tag">Học vấn</p>
+      <h2 class="section-title">Quá Trình Học Tập</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="glass-card fade-in">
+      <div class="timeline">
+        <div class="timeline-item">
+          <p class="timeline-date">2022 — Hiện tại</p>
+          <h3 class="timeline-title">Đại học Công nghệ HUTECH</h3>
+          <p class="timeline-subtitle">Cử nhân Công Nghệ Thông Tin</p>
+          <p class="timeline-desc">
+            Đang theo học ngành Công Nghệ Thông Tin với các môn học chuyên sâu về
+            lập trình, cơ sở dữ liệu, mạng máy tính, trí tuệ nhân tạo và phát triển phần mềm.
+            Tích cực tham gia các hoạt động học thuật và dự án thực tế.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <p class="timeline-date">2019 — 2022</p>
+          <h3 class="timeline-title">Trung học Phổ thông</h3>
+          <p class="timeline-subtitle">Tốt nghiệp THPT</p>
+          <p class="timeline-desc">
+            Hoàn thành chương trình THPT với kết quả tốt. Bắt đầu nuôi dưỡng đam mê
+            với công nghệ thông tin và lập trình từ những năm cuối cấp.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interests Section -->
+  <section class="section">
+    <div class="section-header">
+      <p class="section-tag">Sở thích</p>
+      <h2 class="section-title">Sở Thích Cá Nhân</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="interests-grid">
+      <div class="glass-card interest-card fade-in">
+        <span class="interest-emoji">💻</span>
+        <p class="interest-name">Lập trình</p>
+      </div>
+      <div class="glass-card interest-card fade-in">
+        <span class="interest-emoji">📚</span>
+        <p class="interest-name">Đọc sách</p>
+      </div>
+      <div class="glass-card interest-card fade-in">
+        <span class="interest-emoji">🎮</span>
+        <p class="interest-name">Chơi game</p>
+      </div>
+      <div class="glass-card interest-card fade-in">
+        <span class="interest-emoji">🎵</span>
+        <p class="interest-name">Nghe nhạc</p>
+      </div>
+      <div class="glass-card interest-card fade-in">
+        <span class="interest-emoji">🏃</span>
+        <p class="interest-name">Thể thao</p>
+      </div>
+      <div class="glass-card interest-card fade-in">
+        <span class="interest-emoji">🌍</span>
+        <p class="interest-name">Du lịch</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="section-header">
+      <p class="section-tag">Kết nối</p>
+      <h2 class="section-title">Liên Hệ Với Tôi</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="contact-grid">
+      <div class="glass-card contact-card fade-in">
+        <div class="contact-icon">✉</div>
+        <p class="contact-label">Email</p>
+        <p class="contact-value">nguyentandat@gmail.com</p>
+      </div>
+      <div class="glass-card contact-card fade-in">
+        <div class="contact-icon">📱</div>
+        <p class="contact-label">Điện thoại</p>
+        <p class="contact-value">0123 456 789</p>
+      </div>
+      <div class="glass-card contact-card fade-in">
+        <div class="contact-icon">📍</div>
+        <p class="contact-label">Địa chỉ</p>
+        <p class="contact-value">TP. Hồ Chí Minh, Việt Nam</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer-text">
+      © 2026 Made with <span class="heart">♥</span> by <span class="footer-name">Nguyễn Tấn Đạt</span>
+    </p>
+  </footer>
+
+  <!-- JavaScript for Scroll Animations -->
+  <script>
+    // Scroll animation observer
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    });
+
+    // Observe all fade-in elements
+    document.querySelectorAll('.fade-in').forEach(el => {
+      observer.observe(el);
+    });
+
+    // Smooth scroll for nav links
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.querySelector(link.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+
+    // Navbar background on scroll
+    window.addEventListener('scroll', () => {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        navbar.style.background = 'rgba(10, 10, 26, 0.95)';
+      } else {
+        navbar.style.background = 'rgba(10, 10, 26, 0.7)';
+      }
+    });
+
+    // Typing effect for hero greeting
+    const greeting = document.querySelector('.hero-greeting');
+    const text = greeting.textContent;
+    greeting.textContent = '';
+    let i = 0;
+    function typeWriter() {
+      if (i < text.length) {
+        greeting.textContent += text.charAt(i);
+        i++;
+        setTimeout(typeWriter, 80);
+      }
+    }
+    setTimeout(typeWriter, 500);
+  </script>
+
+</body>
+
+</html>
